@@ -17,11 +17,14 @@ HOW TO RUN LOCALLY:
 import streamlit as st
 import joblib
 import numpy as np
+import os
 
 # Load the trained model once, when the app starts
 # Model lives in ../models/ relative to this app.py file, matching our
 # project structure (models/ folder at the project root)
-model = joblib.load("../models/battery_model.pkl")
+current_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(current_dir, "../models/battery_model.pkl")
+model = joblib.load(model_path)
 
 st.title("🔋 Battery Cycle Life Predictor")
 st.write(
