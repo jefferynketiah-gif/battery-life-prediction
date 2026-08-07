@@ -1,0 +1,10 @@
+# Never commit raw data - it's large and shouldn't live in git history
+data/raw/
+archive/
+*.mat
+*.zip
+
+# Python housekeeping
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
