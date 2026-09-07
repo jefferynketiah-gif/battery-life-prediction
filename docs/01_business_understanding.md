@@ -32,8 +32,3 @@ means:
 A battery R&D or QA engineer, as an early screening tool — not a final
 replacement for full testing, but a way to prioritize which cells to
 watch closely or retest first.
-
----
-*Template note: for any future project, answer these same 4 questions
-first. If you can't answer #3 (what does "good enough" mean), you're not
-ready to model yet — go find out what the real threshold is.*
