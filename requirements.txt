@@ -1,4 +1,5 @@
 joblib
 numpy
 scikit-learn
-matplotlib.pyplot
+matplotlib
+streamlit
