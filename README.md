@@ -1,5 +1,5 @@
 # Battery Early-Cycle Life Prediction
-Part of my portfolio → www.jefferynketiah.com
+Part of my portfolio → jefferynketiah.com
 
 Can we predict how many charge cycles a lithium-ion battery will survive, using only its first ~100 cycles of data?
 
